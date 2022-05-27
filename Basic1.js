@@ -54,9 +54,17 @@ let len = str.length
 console.log(len)
 
 // https://code.mu/ru/javascript/book/prime/basis/string-characters/ 
+// BigInt
+const bigIntExample_1 = 100 n;
+const bigIntExample_2 = BigInt(100)
+console.log(bigIntExample_1, bigIntExample_2)
 
-
-
+const bigIntExample_3 = 1 _000_000_000_000_000n;
+console.log(bigIntExample_3)
+    // Number vs BigInt
+const bigIntExample_4 = 10 n
+const numberExample_1 = 10
+console.log(bigIntExample_4 === numberExample_1)
 
 
 
