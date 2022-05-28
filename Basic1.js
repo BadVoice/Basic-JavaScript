@@ -1,5 +1,5 @@
 //now i will study basic JavaScript
-
+/*
 //array 
 let array = new Array(3, 7, 12, true, 4.5, "some string", true);
 document.write(array[0]);
@@ -14,7 +14,7 @@ console.log(a); // выведет undefined
 let b = undefined;
 console.log(b); // выведет undefined
 
-let n = null;
+let h = null;
 console.log(n); // выведет null
 
 console.log(10 / 0); // выведет Infinity
@@ -55,17 +55,20 @@ console.log(len)
 
 // https://code.mu/ru/javascript/book/prime/basis/string-characters/ 
 // BigInt
-const bigIntExample_1 = 100 n;
+const bigIntExample_1 = 100n;
 const bigIntExample_2 = BigInt(100)
 console.log(bigIntExample_1, bigIntExample_2)
 
-const bigIntExample_3 = 1 _000_000_000_000_000n;
+const bigIntExample_3 = 1_000_000_000_000_000n;
 console.log(bigIntExample_3)
     // Number vs BigInt
-const bigIntExample_4 = 10 n
+const bigIntExample_4 = 10n
 const numberExample_1 = 10
 console.log(bigIntExample_4 === numberExample_1)
+console.log(bigIntExample_4 == numberExample_1)
+    //--------------------------------------------------
 
 
 
-//
+
+*/
